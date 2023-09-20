@@ -7,3 +7,27 @@
 img {
     max-width: 100%;
 }
+
+.container {
+    width: 70%;
+    margin: 2em auto;
+    background-color: aquamarine;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: calc(100% / 3 - 1em);
+    margin-bottom: 1em;
+    background-color: blueviolet;
+    position: relative;
+}
+
+.hearth {
+
+}
