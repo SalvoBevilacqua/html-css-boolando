@@ -18,7 +18,7 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 
 .card {
@@ -28,6 +28,67 @@ img {
     position: relative;
 }
 
-.hearth {
+.image {
+    position: relative;
+}
 
+.hearth {
+    position: absolute;
+    top: .3em;
+    right: 0;
+    padding: .2em .4em;
+    background-color: white;
+}
+
+.info {
+    position: absolute;
+    bottom: 2em;
+    left: 0;
+    padding: .2em .3em;
+    color: white;
+    font-size: .6rem;
+}
+
+.sale {
+    background-color: red;
+}
+
+.eco {
+    background-color: green;
+    left: 3em;
+}
+
+.brand {
+    font-size: .6rem;
+    color: grey;
+}
+
+.article {
+    font-size: .6rem;
+}
+
+.price {
+    font-size: .5rem;
+    color: red;
+}
+
+.old_price {
+    font-size: .5rem;
+    text-decoration: line-through;
+    color: grey;
+}
+
+.hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.image:hover .hover{
+    display: inline;
+}
+
+.hearth:hover {
+    color: red;
 }
