@@ -11,7 +11,7 @@ img {
 .container {
     width: 70%;
     margin: 2em auto;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .flex {
@@ -24,7 +24,7 @@ img {
 .card {
     width: calc(100% / 3 - 1em);
     margin-bottom: 1em;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     position: relative;
 }
 
@@ -40,22 +40,22 @@ img {
     background-color: white;
 }
 
-.info {
+.banner {
     position: absolute;
     bottom: 2em;
     left: 0;
-    padding: .2em .3em;
     color: white;
     font-size: .6rem;
 }
 
 .sale {
     background-color: red;
+    padding: .4em .6em;
 }
 
 .eco {
     background-color: green;
-    left: 3em;
+    padding: .4em .6em;
 }
 
 .brand {
