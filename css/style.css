@@ -16,7 +16,6 @@ header{
     background-color: orange;
     padding: .5em 0;
     color: white;
-    margin-bottom: 2em;
     position: fixed;
     top: 0;
     width: 100%;
@@ -79,7 +78,6 @@ main {
 .card {
     width: calc(100% / 3 - 1em);
     margin-bottom: 1em;
-    /* background-color: blueviolet; */
     position: relative;
 }
 
